@@ -1,0 +1,28 @@
+# optim
+defaults:
+  - override hydra/launcher: joblib
+
+in_size: 20
+out_size: 18
+epochs: 3
+optim: 'adam'
+lr: 2.5e-3
+wd: 1e-1
+power: 1.5
+seed: 3407
+
+path: './checkpoint/bci2a/'
+hydra:
+  run:
+    dir: outputs/bci/
+  sweep:
+    dir: outputs/${now:%Y-%m-%d}/${now:%H-%M-%S}/bci/
+    subdir: '.'
+  launcher:
+    _target_: hydra_plugins.hydra_joblib_launcher.joblib_launcher.JoblibLauncher
+    n_jobs: 16
+  job_logging:
+    handlers:
+      file:
+        class: logging.FileHandler
+        filename: default.log
