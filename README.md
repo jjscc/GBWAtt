@@ -10,7 +10,7 @@ This is the official code for our KDD 2026 publication: Towards Robust EEG Decod
 
 The implementation is based on the official code of 
     
-- *MAtt: A manifold attention network for EEG decoding* [[Neurips 2022](https://proceedings.neurips.cc/paper_files/paper/2022/hash/c981fd12b1d5703f19bd8289da9fc996-Abstract-Conference.html)] [[code](https://proceedings.neurips.cc/paper_files/paper/2022/hash/c981fd12b1d5703f19bd8289da9fc996-Supplemental.zip)].
+- *MAtt: A manifold attention network for EEG decoding* [[Neurips 2022](https://proceedings.neurips.cc/paper_files/paper/2022/hash/c981fd12b1d5703f19bd8289da9fc996-Abstract-Conference.html)] [[code](https://proceedings.neurips.cc/paper_files/paper/2022/file/c981fd12b1d5703f19bd8289da9fc996-Supplemental-Conference.zip)].
 
 
 
