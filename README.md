@@ -18,7 +18,7 @@ The implementation is based on the official code of
 We further release our preprocessed datasets. 
 
 
-Please download (https://drive.google.com/file/d/1T6ay9KKzhgM1hg05w8Buefok58MMevYh/view?usp=drive_link) data and put it in the folder './GBWAtt/data'
+Please download (https://drive.google.com/file/d/1ZGRzwYhGqujVeaBWKTz6GbDKUzsZYvjJ/view?usp=drive_link) data and put it in the folder './GBWAtt/data'
 
 
 ### Running experiments
